@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-    setlocale( LC_ALL,"Russian" );
+    setlocale(LC_ALL,"Russian");
     float a,b,s;
-    cout<<"Input a and b"<<endl;
+    cout<<"Введите A и B"<<endl;
     cin>>a>>b;
     s=(a+b)/2;
-    cout<<"Srednee arifm="<<s<<endl;
+    cout<<"Среднее арифмитическое="<<s<<endl;
     return 0;
 }
